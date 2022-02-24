@@ -1,0 +1,1068 @@
+* {
+    margin:0;
+    padding: 0;
+    
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/*header=================================================*/
+header {
+    margin: 0;
+    width: 100vw;
+    /*height: 10vh;*/
+    background-color: #00748D;
+    background-image: url("instructions/images/path.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    z-index : 1;
+    
+}
+
+.logoTitle {
+    display:flex;
+    
+    align-items: flex-end;
+    
+}
+
+
+
+.title {
+    color: white;
+    font-size: 0.6rem;
+    font-weight: bold;
+    
+}
+.navigation ul {
+    width: 50vw;
+    display :flex;
+    justify-content:flex-end;
+    padding : 40px;
+    
+}
+.navigation li {
+    list-style-type:none;
+    font-weight: bold;
+    font-size: 1.6rem;
+    /*margin : 0 auto;*/
+    
+    
+}
+
+.navigation a {
+    
+    text-decoration: none;
+    color: white;
+    padding : 20px 20px;
+    /*margin : 30px 30px;*/
+}
+
+
+.navigation a:hover {
+     background-color: white;
+    color: #00748D ;
+    
+    
+}
+
+
+
+/*=====================    main     =====================*/
+
+
+
+
+.acceuil {
+    
+    /*margin-top: 10vh;*/
+    width:100vw;
+    z-index:-10;
+    height: 100vh;
+    background-image: url("./instructions/images/bg-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    
+}
+
+
+.acceuilTxt {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    
+}
+
+
+.acceuilTxt h3 {
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color:#CB8606;
+    color: white;
+    border-radius: 0.2rem;
+    transition: all .2s ease-in-out;
+}
+
+/*.un {*/
+    
+/*}*/
+
+.acceuilTxt p {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color:#f9f9f9;
+    color: #00748D;
+    border-radius: 0.2rem;
+    transition: all .4s ease-in-out;
+}
+
+/*.deux {*/
+    
+/*}*/
+
+.acceuilTxt h3:hover {
+   transform: scale(1.5);
+   border-radius: 1rem;
+    
+}
+
+.acceuilTxt p:hover {
+   transform: scale(1.5);
+   border-radius: 1rem;
+    
+}
+
+
+
+/*=============Nos Prestations===============*/
+
+#nosPrestations {
+    
+    /*border: 1px solid red;*/
+    margin-top: 5rem;
+}
+
+ h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+#nosPrestations i {
+    color:red;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    /*padding : 10px;*/
+    padding: 10px 10px 70px 10px;
+    
+    position : relative;
+    z-index: 0;
+    
+}
+
+.card1, .card2,  .card3, .card4 {
+    width: 18vw;
+    
+    /*border: 1px solid red;*/
+    text-align: center;
+    
+}
+
+.cardTitle {
+    margin-top: 20px;
+    font-size:1.6rem;
+    color: #00748D;
+}
+
+.cardTxt {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+
+.icon {
+    background-color:#CB8606;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+}
+
+#cards i {
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+.cardBtn {
+    display : flex;
+    justify-content : center;
+}
+
+
+#cards button {
+    color: white;
+    background-color: #00748D;
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size:1.2rem;
+    position: absolute;
+    bottom : 0;
+    
+}
+
+#cards button a {
+    color:white;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+/*=============Nos prestataires================*/
+
+#nosPrestataires {
+    margin-top: 14em;
+}
+
+
+.prestataires {
+    display :flex;
+    justify-content: space-evenly;
+    margin-top : 5rem;
+}
+
+.partner1, .partner2, .partner3, .partner4 {
+    
+}
+
+.prestataires img {
+    border: 5px solid #1F8D9C;
+}
+
+
+/* ==========================   footer   ==========================*/
+footer {
+    background-color: #00748D ;
+    margin-top : 5rem;
+    /*height : 10vh;*/
+    
+    background-image: url("instructions/images/path.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    
+    
+}
+  
+#foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width : 80vw;
+    margin: auto;
+}
+    
+   
+
+
+#logoFooter {
+    display : flex;
+    /*margin-left: 10vw;*/
+    /*justify-content: space-between;*/
+    align-items: flex-end;
+    padding-bottom : 20px;
+    
+    
+}
+
+#logoFooter p {
+    color : white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+#resSociaux {
+    display : flex;
+    /*margin-right: 10vw;*/
+    /*justify-content: center;*/
+    width : 150px;
+    
+    padding : 40px;
+}
+
+#resSociaux i {
+    color: white;
+    font-size: 30px;
+ 
+    
+}
+
+.fa-brands {
+    margin-right: 15px;
+}
+
+footer h4 {
+    color: #CB8606;
+    font-size : 2em;
+}
+
+
+
+
+
+
+
+/*==============================   nosRealisation.html   ============================*/
+#general {
+    margin-top: 15vh;
+    width : 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contain1 h1 {
+    font-size : 2em;
+    color : #CB8606;
+    margin-bottom : 30px;
+}
+
+
+#containGeneral {
+    
+    display : flex;
+    
+    justify-content: center
+    /*align-items: center;*/
+    
+    
+}
+.contain1 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.gallery {
+    display : grid;
+    grid-template-columns: auto;
+    grid-templates-rows: auto;
+    grid-template-areas:
+    "img1    img9    img4   img3 "
+    "img10   img11   img4   img6"
+    "img10   img8    img2   img7"
+    "img5    img14   img12  img7"
+    "img16   img14   img13  img15";
+    gap : 1em 1em;
+    /*height : 100%;*/
+    width : 80%;
+    margin : auto;
+    
+    
+}
+
+
+.img1 {
+    grid-area: img1;
+    
+}
+
+.img2 {
+    grid-area: img2;
+}
+.img3 {
+    grid-area: img3;
+}
+
+.img4 {
+    grid-area: img4;
+}
+
+.img5 {
+    grid-area: img5;
+}
+.img6 {
+    grid-area: img6;
+}
+
+.img7 {
+    grid-area: img7;
+}
+
+.img8 {
+    grid-area: img8;
+}
+.img9 {
+    grid-area: img9;
+}
+
+.img10 {
+    grid-area: img10;
+}
+
+.img11 {
+    grid-area: img11;
+}
+.img12 {
+    grid-area: img12;
+}
+.img13 {
+    grid-area: img13;
+}
+
+.img14 {
+    grid-area: img14;
+}
+.img15 {
+    grid-area: img15;
+}
+
+.img16 {
+    grid-area: img16;
+}
+
+
+/* zoom image*/
+
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14, .img15, .img16 {
+    transition: transform .1s;
+    
+}
+
+
+.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover, .img7:hover, .img8:hover, .img9:hover, .img10:hover, .img11:hover, .img12:hover, .img13:hover, .img14:hover, .img15:hover, .img16:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    
+}
+
+
+.gallery img {
+    border : 3px solid #00748D ;
+    max-width : 100%;
+    /*max-height: 80%;*/
+    
+}
+
+
+
+.contain2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width : 30%;
+    height: 90%;
+    
+}
+
+.temoignage, .tweet {
+    /*border : 1px solid red;*/
+    
+}
+
+.temoignage {
+    height : 400px;
+    width : 100%;
+    overflow : scroll;
+    height: 450px;
+}
+
+.temoignage h2, .temoignage hr {
+    text-align : center;
+}
+
+hr{
+    /*color: red;*/
+    width: 50%;
+    margin-top : 20px ;
+    margin-bottom : 20px;
+    margin-left : auto;
+    margin-right: auto;
+}
+
+.com {
+    display: flex;
+    align-items: center;
+    
+}
+
+.com p {
+    padding-left : 15px;
+}
+
+/*.cli {*/
+/*    align-items: center;*/
+/*}*/
+
+.temoignage h2 {
+    margin-bottom : 30px;
+}
+
+.comName {
+    color: #00748D;
+    font-weight: bold;
+    width: 100%;
+    /*text-align: center;*/
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.tweet {
+    height:400px;
+    margin-top : 80px;
+    overflow: scroll;
+    width: 100%;
+}
+
+.tweet h2 {
+    padding-left : 60px;
+}
+
+.tweet ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top : 30px;
+}
+
+.tweet li {
+    list-style: url("instructions/images/circle.png");
+    padding-top: 15px ;
+    /*padding-left: 25px;*/
+}
+
+
+h1, h2, h3, h4 {
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+
+h1 {
+    color: #CB8606;
+}
+
+h3, h2 {
+    color: #00748D;
+}
+
+.dashBlue {
+    color:#00748D ;
+}
+
+.dash {
+    color:#CB8606 ;
+}
+
+
+p {
+    font-family: 'Nunito', sans-serif;
+    color: #414141;
+}
+
+
+
+
+
+/*=================         Nos actualistés ================*/
+
+
+
+#containActu {
+    display: flex;
+    /*align-items: center;*/
+}
+
+
+
+.contain3 {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+.contain3 h1 {
+    font-size : 2em;
+    color : #CB8606;
+    margin-bottom : 30px;
+}
+
+
+.cuisine {
+    display : flex;
+    align-items: center;
+    justify-content : space-evenly;
+    
+}
+
+.bureau {
+    display : flex;
+    align-items: center;
+    justify-content : space-evenly;
+}
+
+.imgCuisine, .imgBureau {
+    width: 50%;
+    height: auto;
+    padding : 30px;
+}
+
+.imgCuisine img, .imgBureau img {
+    width: 100%;
+    height: auto;
+    
+}
+
+
+.txtCuisine, .txtBureau {
+    width: 50%;
+    height: auto;
+    padding-right : 70px;
+}
+
+/*.txtCuisine img, .txtBureau img {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*}*/
+
+
+.contain3 button {
+    color: white;
+    background-color: #00748D;
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size:1.2rem;
+}
+
+.contain3 button a {
+    color:white;
+    text-decoration: none;
+    
+}
+
+.contain3 p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size : 18px;
+} 
+
+
+
+
+/*===================  A Propos ====================*/
+
+.ecole {
+    height : 80vh;
+    display : flex;
+    flex-direction: column;
+    justify-content : center;
+    align-items: center;
+    
+}
+
+.imgLogo {
+    width: 50%;
+}
+
+.ecole img {
+    Width : 100%;
+}
+
+
+
+
+
+
+/* =======================   media queries ===================*/
+
+
+
+@media screen and (min-width: 701px) and (max-width: 1100px) {
+/* Mettre ici les différentes règles concernées */
+header{
+    display: flex;
+    flex-direction : column;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.logoTitle  {
+    text-align: center;
+    margin-top : 20px ;
+}
+
+.navigation {
+    display: flex;
+    /*justify-content : center;*/
+    
+}
+.navigation ul {
+    justify-content : center;
+}
+.navigation li {
+    font-size: 30px;
+ 
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    /*grid-template-rows : repeat(2, 1fr);*/
+    grid-template-areas: 
+    " card1 card2"
+    " card3  card4";
+    gap : 0.5em;
+    justify-content : space-evenly;
+}
+.card1 {
+    grid-area: card1;
+
+}
+
+.card2 {
+    grid-area: card2;
+
+}
+
+.card3 {
+    grid-area: card3;
+
+}
+
+.card4 {
+    grid-area: card4;
+}
+
+.card1, .card2,  .card3, .card4{
+    width: 100%;
+}
+
+.prestataires {
+    display : grid;
+    grid-template-columns : 50% 50%;
+    grid-template-areas : 
+    " partner1  partner2"
+    " partner3  partner4";
+    gap: 0.5em 0 ;
+    justify-content: center;
+    align-items: center;
+    width : 100%;
+    /*margin: auto;*/
+}
+.partner1 {
+    grid-area : partner1;
+    display : flex;
+    justify-content : center;
+}
+
+.partner2 {
+    grid-area : partner2;
+    display : flex;
+    justify-content : center;
+}
+
+.partner3 {
+    grid-area : partner3;
+    display : flex;
+    justify-content : center;
+}
+
+.partner4 {
+    grid-area : partner4;
+    display : flex;
+    justify-content : center;
+}
+
+
+#containGeneral {
+        
+        display : flex;
+        flex-direction : column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+.contain1 {
+    width : 90%;
+    margin-bottom : 60px;
+}
+
+.gallery {
+    width: 100%;
+}
+
+.contain2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width : 90%;}
+        
+.com {
+        display: flex;
+        align-items: center;
+        width: 95%;
+        
+    }
+    
+#foot {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+#foot div {
+    padding-top: 40px;
+}
+
+
+}
+
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+/* Mettre ici les différentes règles concernées */
+    header{
+        display: flex;
+        flex-direction : column;
+        text-align: center;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+    }
+    .logoTitle  {
+        text-align: center;
+        margin-top : 20px ;
+    }
+    
+    .navigation {
+        display: flex;
+        /*justify-content : center;*/
+        
+    }
+    .navigation ul {
+        justify-content : center;
+        flex-direction: column;
+    }
+    .navigation li {
+        font-size: 30px;
+        margin : 15px;
+        padding: 20px;
+     
+    }
+    
+    #containGeneral {
+        
+        display : flex;
+        flex-direction : column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    
+    /*.contain1 {*/
+    /*    width: 100%;*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    justify-content: center;*/
+    /*    text-align: center;*/
+    /*    margin-bottom: 50px;*/
+        
+    /*}*/
+    
+    .gallery {
+        display : grid;
+        grid-template-columns: 50% 50%;
+        grid-templates-rows: auto;
+        grid-template-areas:
+        "img1    img9 "
+        "img4   img3 "
+        "img4   img10"
+        "img11   img10"
+        "img6   img8"
+        "img2   img7"
+        "img5    img7"
+        "img14  img12"
+        "img14   img16"
+        "img13  img15";
+        /*gap : 0.5em 0.5em;*/
+        /*height : 100%;*/
+        /*width : 100%;*/
+        /*margin-bottom: 50px;*/
+        
+        
+    }
+    
+ 
+    
+    
+    .contain2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width : 90%;}
+        
+    .com {
+        display: flex;
+        align-items: center;
+        width: 95%;
+        
+    }
+    
+#foot {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+#foot div {
+    padding-top: 40px;
+}
+    
+}
+
+@media screen and (max-width: 500px) {
+/* Mettre ici les différentes règles concernées */
+header{
+    display: flex;
+    flex-direction : column;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.logoTitle  {
+    text-align: center;
+    display : flex;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    /*justify-content : center;*/
+    
+}
+.navigation ul {
+    display : flex;
+    justify-content : center;
+    flex-direction: column;
+    padding : 0;
+}
+.navigation li {
+    /*font-size: 30px;*/
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
+    
+ 
+}
+
+#cards {
+ display : flex;
+    flex-direction : column;
+    align-items: center;
+}
+ 
+
+.prestataires {
+    display : flex;
+    flex-direction : column;
+    align-items: center;
+  
+}
+
+
+
+
+
+#logoFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#resSociaux {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top : 30px;
+    padding-bottom : 30px;
+}
+
+
+.gallery {
+        display : grid;
+        grid-template-columns: 50% 50%;
+        grid-templates-rows: auto;
+        grid-template-areas:
+        "img1    img9 "
+        "img4   img3 "
+        "img4   img10"
+        "img11   img10"
+        "img6   img8"
+        "img2   img7"
+        "img5    img7"
+        "img14  img12"
+        "img14   img16"
+        "img13  img15";
+        
+        
+        
+    }
+
+    
+#foot {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+#foot div {
+    padding-top: 40px;
+}
+
+}
